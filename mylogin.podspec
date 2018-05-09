@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'mylogin'
-  s.version          = '1.5.0'
+  s.version          = '1.6.0'
   s.summary          = 'this is my login module.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/arthi-p/login.git'
+  s.homepage         = 'https://github.com/arthi-p/mylogin.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'parthi175@gmail.com' => 'parthi175@gmail.com' }
-  s.source           = { :git => 'https://github.com/arthi-p/login.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/arthi-p/mylogin.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
